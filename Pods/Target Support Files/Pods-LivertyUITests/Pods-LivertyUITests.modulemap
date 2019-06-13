@@ -1,0 +1,6 @@
+framework module Pods_LivertyUITests {
+  umbrella header "Pods-LivertyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

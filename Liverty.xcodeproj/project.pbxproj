@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144CEE27A0C079FD0C40C488 /* Pods_LivertyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA15FBA096B94644C8F5C8D /* Pods_LivertyTests.framework */; };
+		2474FCB2E02967DCDC2636B6 /* Pods_LivertyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6C89BDEA1EF386AC1D3243 /* Pods_LivertyUITests.framework */; };
+		598D98AB291D08EA71782163 /* Pods_Liverty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1345EFCD1FE23761DFB25B /* Pods_Liverty.framework */; };
 		73F4E7BB22B237EC0050F409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4E7BA22B237EC0050F409 /* AppDelegate.swift */; };
 		73F4E7BD22B237EC0050F409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4E7BC22B237EC0050F409 /* ViewController.swift */; };
 		73F4E7C022B237EC0050F409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F4E7BE22B237EC0050F409 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04460C304F53909A23471A8E /* Pods-Liverty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liverty.release.xcconfig"; path = "Target Support Files/Pods-Liverty/Pods-Liverty.release.xcconfig"; sourceTree = "<group>"; };
+		4E4126F6F478A80961719B2F /* Pods-LivertyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivertyTests.release.xcconfig"; path = "Target Support Files/Pods-LivertyTests/Pods-LivertyTests.release.xcconfig"; sourceTree = "<group>"; };
+		65AFABBE0D357FCA4D6E6411 /* Pods-LivertyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivertyUITests.debug.xcconfig"; path = "Target Support Files/Pods-LivertyUITests/Pods-LivertyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		73F4E7B722B237EC0050F409 /* Liverty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liverty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F4E7BA22B237EC0050F409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73F4E7BC22B237EC0050F409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		73F4E7D622B237ED0050F409 /* LivertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivertyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F4E7DA22B237ED0050F409 /* LivertyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivertyUITests.swift; sourceTree = "<group>"; };
 		73F4E7DC22B237ED0050F409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C83BE623425483FB3BF6563 /* Pods-Liverty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liverty.debug.xcconfig"; path = "Target Support Files/Pods-Liverty/Pods-Liverty.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C55C27810A2DB18B3421FD /* Pods-LivertyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivertyUITests.release.xcconfig"; path = "Target Support Files/Pods-LivertyUITests/Pods-LivertyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA1345EFCD1FE23761DFB25B /* Pods_Liverty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liverty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCEFFF4A3484677DB99A8B8 /* Pods-LivertyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivertyTests.debug.xcconfig"; path = "Target Support Files/Pods-LivertyTests/Pods-LivertyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA15FBA096B94644C8F5C8D /* Pods_LivertyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivertyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6C89BDEA1EF386AC1D3243 /* Pods_LivertyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivertyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598D98AB291D08EA71782163 /* Pods_Liverty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144CEE27A0C079FD0C40C488 /* Pods_LivertyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2474FCB2E02967DCDC2636B6 /* Pods_LivertyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EEB800F10806C5409461FA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA1345EFCD1FE23761DFB25B /* Pods_Liverty.framework */,
+				EEA15FBA096B94644C8F5C8D /* Pods_LivertyTests.framework */,
+				FF6C89BDEA1EF386AC1D3243 /* Pods_LivertyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65C7917F78914A74DC1CABA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C83BE623425483FB3BF6563 /* Pods-Liverty.debug.xcconfig */,
+				04460C304F53909A23471A8E /* Pods-Liverty.release.xcconfig */,
+				CFCEFFF4A3484677DB99A8B8 /* Pods-LivertyTests.debug.xcconfig */,
+				4E4126F6F478A80961719B2F /* Pods-LivertyTests.release.xcconfig */,
+				65AFABBE0D357FCA4D6E6411 /* Pods-LivertyUITests.debug.xcconfig */,
+				B8C55C27810A2DB18B3421FD /* Pods-LivertyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		73F4E7AE22B237EB0050F409 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				73F4E7CE22B237ED0050F409 /* LivertyTests */,
 				73F4E7D922B237ED0050F409 /* LivertyUITests */,
 				73F4E7B822B237EC0050F409 /* Products */,
+				65C7917F78914A74DC1CABA9 /* Pods */,
+				5EEB800F10806C5409461FA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73F4E7DF22B237ED0050F409 /* Build configuration list for PBXNativeTarget "Liverty" */;
 			buildPhases = (
+				62EAC80AF75A0C316B60E95C /* [CP] Check Pods Manifest.lock */,
 				73F4E7B322B237EC0050F409 /* Sources */,
 				73F4E7B422B237EC0050F409 /* Frameworks */,
 				73F4E7B522B237EC0050F409 /* Resources */,
+				F5BC757C31A8C15D0A2644BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73F4E7E222B237ED0050F409 /* Build configuration list for PBXNativeTarget "LivertyTests" */;
 			buildPhases = (
+				8CFDC726E0B9A84DC79DC805 /* [CP] Check Pods Manifest.lock */,
 				73F4E7C722B237ED0050F409 /* Sources */,
 				73F4E7C822B237ED0050F409 /* Frameworks */,
 				73F4E7C922B237ED0050F409 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73F4E7E522B237ED0050F409 /* Build configuration list for PBXNativeTarget "LivertyUITests" */;
 			buildPhases = (
+				A9D21D6A1D8EEE9859477015 /* [CP] Check Pods Manifest.lock */,
 				73F4E7D222B237ED0050F409 /* Sources */,
 				73F4E7D322B237ED0050F409 /* Frameworks */,
 				73F4E7D422B237ED0050F409 /* Resources */,
@@ -250,6 +295,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62EAC80AF75A0C316B60E95C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Liverty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFDC726E0B9A84DC79DC805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivertyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D21D6A1D8EEE9859477015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivertyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5BC757C31A8C15D0A2644BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Liverty/Pods-Liverty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Liverty/Pods-Liverty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73F4E7B322B237EC0050F409 /* Sources */ = {
@@ -430,6 +568,7 @@
 		};
 		73F4E7E022B237ED0050F409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C83BE623425483FB3BF6563 /* Pods-Liverty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +587,7 @@
 		};
 		73F4E7E122B237ED0050F409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04460C304F53909A23471A8E /* Pods-Liverty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +606,7 @@
 		};
 		73F4E7E322B237ED0050F409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCEFFF4A3484677DB99A8B8 /* Pods-LivertyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +628,7 @@
 		};
 		73F4E7E422B237ED0050F409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4126F6F478A80961719B2F /* Pods-LivertyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +650,7 @@
 		};
 		73F4E7E622B237ED0050F409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AFABBE0D357FCA4D6E6411 /* Pods-LivertyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +671,7 @@
 		};
 		73F4E7E722B237ED0050F409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C55C27810A2DB18B3421FD /* Pods-LivertyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
